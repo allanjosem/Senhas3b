@@ -89,6 +89,33 @@ body{
     display: flex;
     justify-content: center;
 }
+.barra {
+    background-color:var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.fraca{
+width: 25%;
+background-color: #e71b32;
+}
+
+.medio{
+width: 50%;
+background-color: #ffc72b;
+}
+
+.forte{
+width: 100%;
+    background-color: #09ff00;
+
+}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
