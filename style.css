@@ -117,6 +117,11 @@ width: 100%;
 
 }
 
+.parametro-senha-texto{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
